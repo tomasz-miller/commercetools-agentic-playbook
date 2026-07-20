@@ -1,6 +1,6 @@
 # Showcases
 
-Two complementary proofs. Use the right story for the audience.
+Three complementary proofs. Use the right story for the audience.
 
 ---
 
@@ -33,14 +33,33 @@ Two complementary proofs. Use the right story for the audience.
 
 - Shopper-facing “AI assistant” via Commerce MCP
 - B2B quotes / approvals
-- Custom Connect application authored with the connect skill
 - Production ESP / email verification
 
 **Audience:** technical buyers, architects, delivery leads evaluating *how fast* CT projects start with agents.
 
 ---
 
-## 2. commerce-ai-tool — LLM product search accelerator
+## 2. ct-agentic-connect — Connect API Extension
+
+**Story:** A Connect **service** application (official starter layout) that registers an API Extension on Cart Create/Update and enforces a configurable minimum cart total — proving the **commercetools-connect** skill beyond installing a marketplace PSP connector.
+
+| | |
+|--|--|
+| **Repo** | https://github.com/tomasz-miller/ct-agentic-connect |
+| **Deploy** | [DEPLOY.md](https://github.com/tomasz-miller/ct-agentic-connect/blob/main/docs/DEPLOY.md) |
+| **Companion** | Same CT Project as zero-to-ct-storefront (when Extension is registered) |
+
+### What it demonstrates
+
+- Connect `service` app + `connect.yaml` + post-deploy Extension lifecycle
+- Synchronous Cart validation (`InvalidInput` when below minimum)
+- Path from agent/scaffold → GitHub → Connect / local tunnel
+
+**Audience:** architects and integration leads evaluating extensibility (OMS hooks, business rules, ERP) — not shopper UX.
+
+---
+
+## 3. commerce-ai-tool — LLM product search accelerator
 
 **Story:** A reusable search widget (React / Next.js / Angular) that interprets natural language, voice, and images into commercetools Product Search — company IP, not an official CT skill.
 
@@ -70,5 +89,6 @@ Two complementary proofs. Use the right story for the audience.
 ## Combining them in a pitch
 
 1. Open the **live storefront** — show purchase path and agent-delivery narrative (~42h).
-2. Optionally show **commerce-ai-tool** as the next layer: AI discovery on the same platform.
-3. Point to this playbook’s [capability map](./capability-map.md) when asked what else the official plugin covers (Connect, commerce-mcp ops, B2B).
+2. Show **ct-agentic-connect** as the integration story (API Extension / Connect skill).
+3. Optionally show **commerce-ai-tool** as AI discovery IP on the same platform.
+4. Point to this playbook’s [capability map](./capability-map.md) for the full official surface.

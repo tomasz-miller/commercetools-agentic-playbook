@@ -31,7 +31,7 @@ Status of the official commercetools AI surface relative to our proofs of concep
 | [commercetools-storefront](https://docs.commercetools.com/dev-tooling/skills/commercetools-storefront/) — Next.js BFF B2C/B2B storefront patterns | **Demonstrated** (B2C) | Full purchase path: discovery, cart, checkout, auth, wishlist, promotions, multi-market. **B2B modules** (quotes, approvals, impersonation) → **Out of scope** |
 | [commercetools-checkout](https://docs.commercetools.com/dev-tooling/skills/commercetools-checkout/) — Checkout + PSP connectors | **Demonstrated** | Checkout Browser SDK + Stripe Connect connector installed in Merchant Center |
 | [commercetools-commerce-patterns](https://docs.commercetools.com/dev-tooling/skills/commercetools-commerce-patterns.md) — pricing, discounts, shipping, tax, B2B orders, import | **Partial** | B2C pricing/discounts/shipping/tax via storefront. B2B order flows and bulk import → **Not demonstrated** |
-| [commercetools-connect](https://docs.commercetools.com/dev-tooling/skills/commercetools-connect.md) — Connect apps, extensions, subscriptions, Custom Views | **Not demonstrated** | Used an existing Stripe Connect app; did not scaffold our own Connect application with the skill. Recipe: [connect-extension](./recipes/connect-extension.md) |
+| [commercetools-connect](https://docs.commercetools.com/dev-tooling/skills/commercetools-connect.md) — Connect apps, extensions, subscriptions, Custom Views | **Demonstrated** (service / API Extension) | [ct-agentic-connect](https://github.com/tomasz-miller/ct-agentic-connect) — min cart value Extension on Cart Create/Update; deploy notes in [DEPLOY.md](https://github.com/tomasz-miller/ct-agentic-connect/blob/main/docs/DEPLOY.md). Subscriptions / Custom Views → **Not demonstrated** |
 
 ---
 
@@ -57,10 +57,10 @@ Status of the official commercetools AI surface relative to our proofs of concep
 ## Coverage at a glance
 
 ```text
-Demonstrated well     Knowledge MCP · platform · storefront (B2C) · checkout
+Demonstrated well     Knowledge MCP · platform · storefront (B2C) · checkout · connect (API Extension service)
 Partial               commerce-patterns · deploy slash commands
-Recipes only          commerce-mcp ops · Connect skill prompts
-Conscious gaps        B2B storefront modules · shopper-facing commerce-mcp · Netlify deploy
+Recipes only          commerce-mcp ops
+Conscious gaps        B2B storefront modules · Connect event/job/Custom Views · shopper-facing commerce-mcp · Netlify deploy
 ```
 
-For sales: lead with the **storefront PoC** (time-to-value + live demo). Use this map when a prospect asks “what else can the plugin do?”
+For sales: lead with the **storefront PoC** (time-to-value + live demo), then **Connect** for integration/extensibility. Use this map when a prospect asks “what else can the plugin do?”

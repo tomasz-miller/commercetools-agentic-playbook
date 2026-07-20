@@ -43,6 +43,7 @@ Do not confuse **agent-assisted delivery** (official plugin) with **shopper-faci
 | Showcase | What it proves | Links |
 |----------|----------------|-------|
 | **zero-to-ct-storefront** | Full B2C path with CT AI skills + Knowledge MCP (~42h net) | [Live](https://zero-to-ct-storefront.vercel.app/) · [Repo](https://github.com/tomasz-miller/zero-to-ct-storefront) |
+| **ct-agentic-connect** | Connect `service` + Cart API Extension (min cart value) | [Repo](https://github.com/tomasz-miller/ct-agentic-connect) · [Deploy](https://github.com/tomasz-miller/ct-agentic-connect/blob/main/docs/DEPLOY.md) |
 | **commerce-ai-tool** | Own accelerator: NL / voice / image product search on CT | [Repo](https://github.com/tomasz-miller/commerce-ai-tool) |
 
 ## Official references
