@@ -11,7 +11,8 @@ Three complementary proofs. Use the right story for the audience.
 | | |
 |--|--|
 | **Live** | https://zero-to-ct-storefront.vercel.app/ |
-| **Repo** | https://github.com/tomasz-miller/zero-to-ct-storefront |
+| **GitHub** | https://github.com/tomasz-miller/zero-to-ct-storefront |
+| **Bitbucket** | https://bitbucket.org/istonecrosscommerce/zero-to-ct-storefront |
 | **Demo script** | [DEMO_SCRIPT.md](https://github.com/tomasz-miller/zero-to-ct-storefront/blob/main/docs/DEMO_SCRIPT.md) (~10–15 min) |
 | **Time report** | [TIME_REPORT.md](https://github.com/tomasz-miller/zero-to-ct-storefront/blob/main/docs/TIME_REPORT.md) |
 
@@ -45,7 +46,8 @@ Three complementary proofs. Use the right story for the audience.
 
 | | |
 |--|--|
-| **Repo** | https://github.com/tomasz-miller/ct-agentic-connect |
+| **GitHub** | https://github.com/tomasz-miller/ct-agentic-connect |
+| **Bitbucket** | https://bitbucket.org/istonecrosscommerce/ct-agentic-connect |
 | **Deploy** | [DEPLOY.md](https://github.com/tomasz-miller/ct-agentic-connect/blob/main/docs/DEPLOY.md) |
 | **Companion** | Same CT Project as zero-to-ct-storefront (when Extension is registered) |
 
@@ -65,7 +67,8 @@ Three complementary proofs. Use the right story for the audience.
 
 | | |
 |--|--|
-| **Repo** | https://github.com/tomasz-miller/commerce-ai-tool |
+| **GitHub** | https://github.com/tomasz-miller/commerce-ai-tool |
+| **Bitbucket** | https://bitbucket.org/istonecrosscommerce/commerce-ai-tool |
 | **Packages** | `@commerce-ai-tool/core`, `server`, `react`, `angular` |
 
 ### What it demonstrates

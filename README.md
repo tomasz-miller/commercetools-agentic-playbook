@@ -40,11 +40,11 @@ Do not confuse **agent-assisted delivery** (official plugin) with **shopper-faci
 
 ## Proofs of concept
 
-| Showcase | What it proves | Links |
-|----------|----------------|-------|
-| **zero-to-ct-storefront** | Full B2C path with CT AI skills + Knowledge MCP (~42h net) | [Live](https://zero-to-ct-storefront.vercel.app/) · [Repo](https://github.com/tomasz-miller/zero-to-ct-storefront) |
-| **ct-agentic-connect** | Connect `service` + Cart API Extension (min cart value) | [Repo](https://github.com/tomasz-miller/ct-agentic-connect) · [Deploy](https://github.com/tomasz-miller/ct-agentic-connect/blob/main/docs/DEPLOY.md) |
-| **commerce-ai-tool** | Own accelerator: NL / voice / image product search on CT | [Repo](https://github.com/tomasz-miller/commerce-ai-tool) |
+| Showcase | What it proves | GitHub | Bitbucket |
+|----------|----------------|--------|-----------|
+| **zero-to-ct-storefront** | Full B2C path with CT AI skills + Knowledge MCP (~42h net) | [Live](https://zero-to-ct-storefront.vercel.app/) · [Repo](https://github.com/tomasz-miller/zero-to-ct-storefront) | [Repo](https://bitbucket.org/istonecrosscommerce/zero-to-ct-storefront) |
+| **ct-agentic-connect** | Connect `service` + Cart API Extension (min cart value) | [Repo](https://github.com/tomasz-miller/ct-agentic-connect) · [Deploy](https://github.com/tomasz-miller/ct-agentic-connect/blob/main/docs/DEPLOY.md) | [Repo](https://bitbucket.org/istonecrosscommerce/ct-agentic-connect) |
+| **commerce-ai-tool** | Own accelerator: NL / voice / image product search on CT | [Repo](https://github.com/tomasz-miller/commerce-ai-tool) | [Repo](https://bitbucket.org/istonecrosscommerce/commerce-ai-tool) |
 
 ## Official references
 
@@ -53,6 +53,14 @@ Do not confuse **agent-assisted delivery** (official plugin) with **shopper-faci
 - [Knowledge MCP](https://docs.commercetools.com/dev-tooling/mcp/knowledge-mcp)
 - [Commerce MCP](https://docs.commercetools.com/dev-tooling/mcp/commerce-mcp)
 - [commercetools AI plugins](https://github.com/commercetools/commercetools-ai-plugins)
+
+## Hosting
+
+GitHub is the source of truth and public portfolio. Columbus keeps a private copy on Bitbucket; push day-to-day work to GitHub (`origin`). This repository is documentation only — it has no Bitbucket Pipeline.
+
+| | GitHub | Bitbucket |
+|--|--|--|
+| This repo | [tomasz-miller/commercetools-agentic-playbook](https://github.com/tomasz-miller/commercetools-agentic-playbook) | [istonecrosscommerce/commercetools-agentic-playbook](https://bitbucket.org/istonecrosscommerce/commercetools-agentic-playbook) |
 
 ## License
 
